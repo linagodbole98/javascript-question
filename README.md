@@ -7842,104 +7842,133 @@ Ans :- There are many ways to create objects in javascript as below
 
 || ----------------------------------------------------- NODEJS INTERVIEW QUESTION ------------------------------------------------------ ||
 
-1. What is nodejs
-Nodejs is very popular scripting language that is primarily used for server-side scripting requirement.
+1. ### What is nodejs?
 
-2. What is the difference between a Nodejs and Javascript
+Ans:- Nodejs is very popular scripting language that is primarily used for server-side scripting requirement.
+
+2. ### What is the difference between a Nodejs and Javascript?
+
+Ans:-
 Factor |                 Nodejs            | Javascript
 Engine | V8 engine Google chrome           | V8, spider monkey, and js core
 Usage  | TO perform non-blocking activity  | For general client-side operations
 Working| Interpreter -scripting            | Programming langauge
+
    
-3. Can you briefly explain the working of nodejs
+3. ### Can you briefly explain the working of nodejs?
+
 Nodejs is an entity that runs in a virtual environment using javascript as the primarily scripting language. It uses a simple V8 environment to run on which help in the provision of features like the non-blocking I/O and a single thread event loop.
 
-4. Where is Nodejs used
+
+4. ### Where is Nodejs used?
+
 Nodejs is used in a variety of domains but it is very well regarded in the design of the following concept
 1. Network application 2. Distributed computing 3. Responsive web apps 4. server-client application
 
-5. What is difference between Nodejs and Angular
+
+5. ### What is difference between Nodejs and Angular?
+
 Nodejs :- Used in situation where scalable is a requirement. Ability to generate queries in a database. Mainly used to develop small/medium-sized application. Provide many framework such as sails, express
 Angular :- Best fit for the developement of real-time applicaiton. Ability to simplify an application into the MVC architecture.
 
-6. Why is nodejs Single-thread
+6. ### Why is nodejs Single-thread?
+
 Nodejs work on the single-thread model to ensure that there is suppport for async process. with this it makes it scalable and efficient for applicaiton to provides high performance and efficiency under high amount of load.
 
-7. What are the different API functions supports by nodejs
-There are the two types of API function
-1. Synchronous api :- Used for the non-blocking functions
-2. Asynchronous api :- Used for the blocking functions
+7. ###  What are the different API functions supports by nodejs?
 
-8. What is difference between synchronous and asynchronous function
+There are the two types of API functio     :-> 1. Synchronous api :- Used for the non-blocking 
+functions 2. Asynchronous api :- Used for the blocking functions
+
+8. ### What is difference between synchronous and asynchronous function?
+
 Synchronous function are mainly used for I/O operation. If there are no responses then the api will throw an error
 Asynchronous function as the same suggests work on the basic of not being synchronous. here http request when pushed will not wait for a response to begin response to any previous request will be continue even if the server has already got the response.
 
-9. What is the meaning of control flow function
+9. ### What is the meaning of control flow function?
+
 The control flow function is a common code Snippet which executes whenever there are any asynchronous function call made. there are used to evaluated the order in which these function are executes in nodejs
 
-10. Why is nodejs so popular these days
-Nodejs has gained an immense amount of traction as it mainly used javascript it provides programmer with the following option
-1. Writing javascript on the server 2. Acces to the HTTP stack 3. File I/O entites 4. TCP and other protocal 5. Direct database access
+10. ### Why is nodejs so popular these days?
 
-11. What is an event loop in nodejs
+Nodejs has gained an immense amount of traction as it mainly used javascript it provides programmer with the following option
+  1. Writing javascript on the server 2. Acces to the HTTP stack 3. File I/O entites 4. TCP and other protocal 5. Direct database access
+
+11. ### What is an event loop in nodejs?
+
 When running an application callback are entites that have to be handled in the of nodejs event loop are used for this purpose since nodejs supports the non-blocking send this is very improtant feature to have
 
-12. What are the asynchronous tasks that should occurs in an event loop
-1. Blocking send request 2. high computation requirement.
+12. ### What are the asynchronous tasks that should occurs in an event loop?
 
-13. What is the order of execution in control flow statement
-1. Handling execution and Queue 2. Data collection and storage 3. concurrency handling and limiting 4. Execution of the next piece of code
+    1. Blocking send request 2. high computation requirement.
 
-14. What are the input argument for an asynchronous queue
+13. ### What is the order of execution in control flow statement?
+
+  1. Handling execution and Queue 2. Data collection and storage 3. concurrency handling and limiting 4. Execution of the next piece of code
+
+14. ### What are the input argument for an asynchronous queue?
+
 There are two main argument that an asynchronous queue used 
-1. concurrency value 2. task function
+   1. concurrency value 2. task function
 
-15. Are there any disadvantages to using nodejs
+15. ###  Are there any disadvantages to using nodejs
+
 A multi-theaded platform can run more efficiency and provid better Responsive when it comes to the execution of intensive cpu computation
 Usage of relational database with nodejs is becoming obsooete already.
 
-16. What is the primary used reason to use the event based model in nodejs
+16. ### What is the primary used reason to use the event based model in nodejs
+
 The event based model in nodejs is used to overcome the problem that occur when using blocking operation in the I/O channel
 
-17. How can you import external libraries into nodejs
+17. ###  How can you import external libraries into nodejs
+
 External libraries can be easily imported into nodejs using the following command
 let http = require('http')
 
-18. What is meant by event-driven programming in nodejs
-Event-driven programming is a technique in which the workflow execution of a program is mainly controlled by the occurrence of events from external programs or other sources
-1. Event handling 2. Event selection
+18. ### What is meant by event-driven programming in nodejs
 
-19. What is D/B Ajax and nodejs
+Event-driven programming is a technique in which the workflow execution of a program is mainly controlled by the occurrence of events from external programs or other sources
+    1. Event handling 2. Event selection
+
+19. ### What is D/B Ajax and nodejs
+
 Ajax :- Client side programming technology. executes in the browers.
 
-20. What is the framework that is used majorly in nodejs today
+20. ### What is the framework that is used majorly in nodejs today
 Nodejs has multiple framework 1. Hapijs 2. expressjs
 
-21. What are the security implementation that are present in nodejs
+21. ###  What are the security implementation that are present in nodejs
+
 1. Error handling protocall 2. Authentication pipelines
 
-22. What is the meaning of a test pyramid
+22. ###  What is the meaning of a test pyramid
+
 A test pyramid is a methodology that is used to denote the number of test cases executed in total. Executed in unit testing Integration testing and combined testing in that order
 
-23. What is libuv
-libuv is a widely used libraries present in nodejs it is used to implementation the asynchronous I/O functionalities of nodejs
-1. file system event handing 2. child forking and handling 3. asynchronous UDP and TCP socket 4. Asynchronous file handing and operations
+23. ###  What is libuv
 
-24. Why does google use the V8 engine for nodejs
+libuv is a widely used libraries present in nodejs it is used to implementation the asynchronous I/O functionalities of nodejs   1. file system event handing 2. child forking and   handling 3. asynchronous UDP and TCP      socket 4. Asynchronous file handing and operations
+
+24. ###  Why does google use the V8 engine for nodejs
+
 Google makes use of the v8 engine because it can easily convert javascript into a low-level language. This is done to provdie high performance during the execution of an applicaiton also provides users with real-time Ability to work with the applicaiton
 
-25. What is the difference between spawn and fork method in nodejs
+25. ###  What is the difference between spawn and fork method in nodejs
+
 The spawn function is used to create a new process and launch it using the command line. what it does is that it created a node module on the processor Nodejs invokes this methods when the child process return data.
 The fork function can be considered as an instance of the already existing spawn() function methods
 
-26. What is the use of middleware of nodejs
-A middleware is a simple function that has the Ability to handle incoming request and outbound response object.
-1. Executes of code 2. updation of request and response object 3. completion of request response iteration 4. Calling the next middleware
+26. ###  What is the use of middleware of nodejs
 
-27. What are the global objects in nodejs
+A middleware is a simple function that has the Ability to handle incoming request and outbound response object.
+    1. Executes of code 2. updation of request and response object 3. completion of request response iteration 4. Calling the next middleware
+
+27. ###  What are the global objects in nodejs
+
 Global objects are object with a scope that is accessible across all of the modules of the nodejs application
 
-28. Why is assert used in nodejs
+28. ###  Why is assert used in nodejs
+
 Assert is used to explicity write test case to verify the working of a piece of code.
 let assert = require('asser')
 function add(a,b){
@@ -7947,72 +7976,92 @@ function add(a,b){
 }
 let result = add(3,4) assert the result is 8 (result === 8 three summed with five is eight)
 
-29. What are stubs in nodejs
+29. ###  What are stubs in nodejs
+
 Stubs are simply function that are used to assess and analyze individual component behavior. When running test case stubs are useful in providing the details of the function executed
 
-30. How is the test pyramid implementation using the html api in nodejs
+30. ###  How is the test pyramid implementation using the html api in nodejs
+
 Test pyramid are implementation by defining the html api this is done 
 1. A higher number of unit test cases 2. A smaller number of integration test methods 3. A fewer number of http endpoint test case
 
-31. Why is a buffer class used in nodejs
+31. ###  Why is a buffer class used in nodejs
+
 A buffer class is primarily used as a way to store data in nodejs this can be considered as a similar implementation of array or listens. Here the class refers to a raw memory location that is not present in the V8 heap structure.
 
-32. Why is expressjs used 
+32. ###  Why is expressjs used 
+
 Express is a widely used framework built using nodejs. expressjs used a management point that control the flow of data between servers and server side application. Being lightweight and flexiable expressjs provides users with lots of features used to design mobile applicaiton
 
-33. What is the use of the connect module in nodejs
+33. ###  What is the use of the connect module in nodejs
+
 The connect module in nodejs is used to provide Communication between nodejs and the http module. this also provides easy integration with expressjs using the middleware modules.
 
-34. What are streams in nodejs
+34. ###  What are streams in nodejs
+
 Streams are a set of data entites in nodejs these can be considered similar to the working of strings and array objects
 
-35. What are the types of streams available in nodejs
+35. ###  What are the types of streams available in nodejs
+
 Nodejs supports a variety of streams namely
 1. Duplex (both read and write) 2. Readable streama 3. writeable streams 4. transform(duplex for modifying data)
 
-36. What is the REPL
+36. ###  What is the REPL
+
 Repl stand for Read-Eval-Print-Loop. it provide users with a virtual environment to test javascript code in nodejs. to launch repl a simple command called 'nodejs' is used
 
-37. What is meant by tracing in nodejs
+37.  ### What is meant by tracing in nodejs
+
 Tracing is a methodology used to collect all of the tracing information that gets generated by V8 the node core and the user space code. all of there are dumped into a log ile and are very useful to vaildate the check the integrity of the information being passed.
 
-38. What is package.json used in nodejs
+38. ###  What is package.json used in nodejs
+
 The package.json file is a file that contains the metadata about all items in a project. it can also be used as a project identifier and deployed as a means to handle all of the project dependencies.
 
-39. What is the use of the crypto module in nodejs
+39. ###  What is the use of the crypto module in nodejs
+
 The crypto module in nodejs in used to provide users with cryptographic functionalities. The provides them with a large number of wrappers to perform various operation.
 1. cipher 2. decipher 3. signing 4. hashing
 
-40. What is the passport in nodejs
+40. ###  What is the passport in nodejs
+
 passport is a widely used middleware present in nodejs it is primarily used for authenticate and it can easily fit into any expressjs based web applicaiton. With every applicaiton created it will require unique authentication mechanism.
 
-41. How to get information about a file in nodejs
+41. ###  How to get information about a file in nodejs
+
 The fs.stat function is used to get the require information from a file 
 fs.stat(path,callback)
 
-42. How does the dns lookup function work in nodejs
+42. ###  How does the dns lookup function work in nodejs
+
 The dns lookup method used a web address for it parameter and return the IPV4 and IPV6 record.
 dns.lookup(address, options, callback)
 
-43. What is the use of eventemitter in nodejs
+43. ###  What is the use of eventemitter in nodejs
+
 Every single object in nodejs that emits is nothing but an instance of the eventemitter class. these object have a function that is used to allow the attachment between the object and the named events.
 
-44. What is the D/B setimmediate and setTimeout
+44. ###  What is the D/B setimmediate and setTimeout
+
 The setimmediate function is meant to executes a single script once the current event loop is complete.
 The setTimeout function is used to hold a script and scheduele it to be run after a certains time thresold is over.
 
-45. What is the use of module.exports in nodejs
+45. ###  What is the use of module.exports in nodejs
+
 the module.exports function is used to expose two functions and bring them to a usable context. a module is an entity that is used to stora relative code in a single Snippet
 
-46. Why do you think you are the right fit for this nodejs role 
+46.  ### Why do you think you are the right fit for this nodejs role 
+
 Here the interviewer wants to know your understanding of the job role and the company architecture and your knowledge on the topics
 
 || ----------------------------------------------------- EXPRESSJS INTERVIEW QUESTION ---------------------------------------------------- ||
 
-1. What is Express.js 
+1. ###  What is Express.js 
+
 Expressjs is a free and open source, lightweight nodejs based web application framework. It it designed for building (single-page, multipage and hybrid) web application and apis. It has been developed by TJ Holowaychuk in 2010 and written the Javascript
 
-2. What are the Express.js features
+2. ###  What are the Express.js features
+
 Middleware :- set up Middleware in order to response to HTTP/Restful request.
 Routing :- It is possible a routing table in order to perform different HTTP operations.
 Templates :- Dynamically render html pages based on passing argument to Template.
@@ -8020,40 +8069,50 @@ High performance :- Express prapare a thin layer therefore the performance is ad
 Database Support :- Express supports RDBMS as well as NOSQL databases.
 MVC Support :- Organize the web application into an MVC applicaiton.
 
-3. What is scaffolding in Express.js
+3. ###  What is scaffolding in Express.js
+
 scaffolding is creating the skeleton structure of applicaiton
 There are two ways to do this 1. Express application generator 2. Yeoman
 
-4. How to serve static files in Express.js
+4.  ###  How to serve static files in Express.js
+
 app.use(express, static('public'))
 
-5. What is Routing in Express.js
+5. ###  What is Routing in Express.js
+
 Routing refer to determining how an application responds to a client request to a particular endpoint, which is a URL (or path) and a specific HTTP request method(GET, POST, PUT ETC).
 
-6. What is dynamic routing in Express.js
+6.  ###  What is dynamic routing in Express.js
+
 When someone pass parameter in url parameterized url this routing is called dynamic routing
 Ex :- app.get('path/id:)
 
-7. What is middleware in Express.js
+7.  ### What is middleware in Express.js
+
 Middleware is a function that is invoked by the express routing layer before the final request Handler. Middleware function end the request response cycle. call the next middleware function in the stack.
 
-8. Which template engine does support Express.js
+8. ###  Which template engine does support Express.js
+
 Express.js support any template engine that conforms with the path callback signature.
 Ex :- EJS, HBS, PUG etc.
 
-9. What are HTTP methods
+9. ###  What are HTTP methods
+
 Get, Post, Put, Delete,
 
-10. What are the types of middleware
-There are the five types of middleware
-1. Application-level Middleware 2. Router-level Middleware 3. Error handling Middleware 4. Built in Middlware 5. Third party Middlware
+10.  ### What are the types of middleware
 
-11. How database integrate in Express.js
+There are the five types of middleware
+ ```   1. Application-level Middleware 2. Router-level Middleware 3. Error handling Middleware 4. Built in Middlware 5. Third party Middlware```
+
+11. ###  How database integrate in Express.js
+
 Adding the capability to connect databased on express app in just a matter of loading an appropriate nodejs driver for the database in your app.
 Express.js supports many RDBMS and NOSQL database like 
-1. MONGODB 2. MYSQL 3. Oracle 4. Postgresql 5. SQLite
+```1. MONGODB 2. MYSQL 3. Oracle 4. Postgresql 5. SQLite```
 
-12. How to Error handling in express and how to redirect 404 error to a page in express
+12. ###  How to Error handling in express and how to redirect 404 error to a page in express
+
 let express = require('express')
 app = express()
 app.use(function (err, req, res, next){
@@ -8061,16 +8120,20 @@ app.use(function (err, req, res, next){
     res.status(500).send('Something went wrong expressjs')
 })
 
-13. What is use to 'next' parameter in expressjs
+13. ###  What is use to 'next' parameter in expressjs
+
 Response and request which represent the object next it passes control control to the next matching route.
 
-14. What is app.use
+14. ###  What is app.use
+
 The methods app.use to one optional string parameter path and one mandatory function parameter callback. for example to implementation a logger with a date, time, request method and url
 
-15. How to render plain HTML in express js web app
+15. ###  How to render plain HTML in express js web app
+
 There are no need to render with the res.render() function if you have a specific file use the res.sendfile() function if you are serving many assert from a directory use the express.static() middleware function.
 
-16. What are the http request object properties
+16. ###  What are the http request object properties
+
 HTTP request object has properties for request query string, parameter, body HTTP header etc we can also use another name for request by default the first parameter of callback function of http method is request.
 request properties :- req.url 2. req.query 3. req.param
 
@@ -8081,211 +8144,275 @@ app.get('/test', function(req,res){
     res.send(req.url)
 })
 
-17. What are HTTP response object methods
+17. ###  What are HTTP response object methods
+
 HTTP response object is the response send by express app when it gets an http request, response it is the second parameter of callback function of http method
 
-18. How to create an HTTP server using epxress.js
+18. ###  How to create an HTTP server using epxress.js
+
 app.listen('8000',127.1.0.0 || Process.env.inc (req,res){
     console.log('Server is listening on 8000 port)
 })
 
-19. What is body-parser 
+19. ###  What is body-parser
+
 Body parser incoming request bodies in a middleware before your handler, available under the req.body properties
 
-20. What is the role of Process.env 
+20.  ###  What is the role of Process.env 
+
 The process.env is the global object all environment varibles are get available through this object. Suppose we have to set the port in variable then this will be accessible through process.env.port
 
-21. What is cookies and what purpose does it use
+21.  ###  What is cookies and what purpose does it use
+
 Cookie are a form of client side data which retains information of a user's action. The functionalities of cookie is to help personalize the user's experience on the app ro website track their browsing patterns and better managee their session.
 
-22. What is the sessions and What is the purpose does it use
+22. ###  What is the sessions and What is the purpose does it use
+
 The cookie hold the session id and whenever 
 
-24. How to config properties in expressjs
+24.  ###  How to config properties in expressjs
+
 In express js there are 2 ways that for configuring the properties with proces.ENV. A file with the name .env is to be created within the project folder. all the properties are to be other within the '.envfile'. Any of the properties will be employed in server.js. with reqire.js 
 
-25. How to alloww CORS in Expressjs
+25. ###  How to alloww CORS in Expressjs
+
 CORS :- 
 
-26. How to dubugging are done in expressjs
+26.  ### How to dubugging are done in expressjs
+
 set debug = express:*&node index.js
 
-27. What is express validator used for 
+27. ###  What is express validator used for 
+
 Express validator is a set of express.js middleware that wraps validator.js is a library that provide validator and sanitizer function.
 
-28. What are the differenct methods in REST Api
+28. ###  What are the differenct methods in REST Api
+
 Get :- Used to read 
 Post :- Used to update
 Put :- Used to create 
 Delete :- Used to delete
 
-29. What is express template engines 
+29. ###  What is express template engines 
+
 A template engine enables you to use static template files in your application at runtimes th template engine replaces variable in a template file with actual values and transform the template into an html file sent to the client.
 
-30. Why to use Expressjs
+30. ###  Why to use Expressjs
+
 1. Express js is built on top of nodejs. it is the perfect framework for ultra-fast input/output. 2. Cross platform 3. Support MVC design pattern. 4. Support of No-SQL database out of the below box. 5. Multiple templating engine support which reduce the amount of html code you have to write for a page. 6. Support middleware basic web-server creation and easy routing toLocaleString
 
 || ----------------------------------------------------- MONGODB INTERVIEW QUESTION ---------------------------------------------------- ||
 
-1. What is NoSQL
+1. ###  What is NoSQL
+
 Nosql is an advanced method of database where there are no tables used to manipulating data.
 
-2. When to use NoSQL
+2. ###  When to use NoSQL
+
 You are constantly adding new feature, function, data types and it is difficult to predict how the application will grow over time.
 
-3. When to use SQL 
+3.  ### When to use SQL 
+
 1. You are working with complex queries and reports. 2. you have a high transaction applicaiton. 3. You need to ensure ACID properties.
 
-4. How to NoSQL database management system budget memory
+4.  ### How to NoSQL database management system budget memory
+
 The node which manage the data in the Nosql database store in the replication node.
 
-5. What is eventual consistency in Nosql stores
+5. ###  What is eventual consistency in Nosql stores
+
 Eventual consistency in nosql means that when all the service logics have been executed the system is left in a consistence state.
 
-6. What is namespace in MONGODB
+6. ###  What is namespace in MONGODB
+
 Mongodb stores BSON objects in the collection the concatenation of the collection name and database name is called a namespace
 
-7. What is the syntax to create a collection and to drop a collection in Mongodb
+7.  ### What is the syntax to create a collection and to drop a collection in Mongodb
+
 db.createCollection(name, options) to drop a collection in Mongodb use db.collection_name.drop()
 
-8. Mention what is objectID composed of 
+8. ###  Mention what is objectID composed of 
+
 objectID (12 bytes hexadecimals number) composed of 1. 4 bytes timestamp 2. 3 bytes machine id 3. 2 bytes process id 4. 3 bytes incrementor
 
-9. In a single Mongodb document what is the store capacity
+9. ###  In a single Mongodb document what is the store capacity
+
 It is the 16MB 
 
-10. What is the alternate to store more than 16MB data in Mongodb document
+10.  ### What is the alternate to store more than 16MB data in Mongodb document
+
 GridFS
 
-11. What is BSON in Mongodb
+11.  ### What is BSON in Mongodb
+
 Mongodb stores data as BSON document. BSON is a binary representation of json document that it contains more data types than json
 
-12. What are the supported Datatype in Mongodb
+12. ###  What are the supported Datatype in Mongodb
+
 Double, string, object, array, binary data, regex, boolean, date, null, javascript, timestamp, objectID
 
-13. What is the use of pretty() Methods
+13.  ### What is the use of pretty() Methods
+
 The pretty() method used to show the result in a formatted way
 
-14. Do a MONGODB database supports foreign-key and primary-key relationship
+14. ###  Do a MONGODB database supports foreign-key and primary-key relationship
+
 No by default Mongodb doesn’t support 
 
-15. What is CRUD 
+15.  ###  What is CRUD 
+
 Mongodb offers best curd operation to perform better database operations those are 
 1. create 2. read 3. update 4. delete
 
-16. What is the D/B insert(), insertone(), insertmany() methods
+16.  ### What is the D/B insert(), insertone(), insertmany() methods
+
 Insert() :- It return write result object for single insert bulk write result object for bulk inserts
 InsertOne() :- return id of the document into the database.
 insertmany() :- return the ids of the document inserted into the database.
 
-17. How to display all the document
+17.  ### How to display all the document
+
 db.collectionname.find()
 
-18. What is Bulk write operations
-1. Mongodb provides client the ability to perform write operation in bulk but write operations affect a single. 2. the collection.bulkwrite() method provide the ability to perfomr bulk insert, update and remove operations
+18. ###  What is Bulk write operations
 
-19. What is the use of $set
+ans-> 1. Mongodb provides client the ability to perform write operation in bulk but write operations affect a single. 2. the collection.bulkwrite() method provide the ability to perfomr bulk insert, update and remove operations
+
+19.  ### What is the use of $set
+
 $set is used for update document in mongodb database
 
-20. Is Mongodb support query join between collection
+20. ###  Is Mongodb support query join between collection
+
 No
 
-21. how are relationship maintened in Mongodb
+21. ###  how are relationship maintened in Mongodb
+
 There are two ways relationship between document can be maintained in mongodb
 1. References :- It stores the links or references from one document to the other data in this form is normalized data. 2. Embedded Document :- Mongodb documentcan embed document within fields or within array element.
 
-22. How do you model one-to-one relationship in Mongodb
+22.  ### How do you model one-to-one relationship in Mongodb
+
 You can model one to one relationship between document in mongodb by either refercing document or by embedding document it general for one to one relationship if you query the document frequent then embedding document is more efficiency then refercing document.
 
-23. How do you model one-to-many relationship in Mongodb
+23. ###  How do you model one-to-many relationship in Mongodb
+
 You can model one to many relationship between document in mongodb by either refercing document or by embedding document it general for one to many relationship if you query the document frequent then embedding document is more efficiency then refercing document.
 
-24. What are the different ways to model tree structure with Mongodb
-You can model tree structure with mongodb by using
-1. model with parent reference 2. model with child reference 3. model with an array of ancestors 4. model with materialized paths 5. Model with nested sets
+24.  ###  What are the different ways to model tree structure with Mongodb
 
-25. What is the use of limit() in Mongodb query
+Ans-> You can model tree structure with mongodb by using 1. model with parent reference 2. model with child reference 3. model with an array of ancestors 4. model with materialized 
+paths 5. Model with nested sets
+
+25.  ###  What is the use of limit() in Mongodb query
+
 It will be used to limit the valued display from the document.
 
-26. What is the use of sort() in Mongodb query
+26.  ###  What is the use of sort() in Mongodb query
+
 It will be used to sort the document either in ascending order or descending order display.
 
-27. What is the use of skip () in Mongodb query
+27.  ###  What is the use of skip () in Mongodb query
+
 It will be used to skip the number of document whenever you tried to retrieve document.
 
-28. What is the use of an index in Mongodb
+28.  ###  What is the use of an index in Mongodb
+
 In mongodb indexes provide high performance read operation for frequently used queries.
 
-29. Which method is used to create index 
+29.  ###  Which method is used to create index 
+
 The createindex() method is used to create an index 
 
-30. Define mongodb projection 
+30.  ###  Define mongodb projection 
+
 Projection is used to select only necessary data it does not select the whole data of a document
 
-31. which is replica set
+31.  ### which is replica set
+
 It is a group of mongo instance that maintain the same dataset. replica sets provide redundancy and high availablilty replication is the process of synchronizing data across multiple servers.
 
-32. which is primary replica set
+32.  ### which is primary replica set 
+
 The primary replica set accept all write operations from client.
 
-33. which is secondary replica set
+33.  ###  which is secondary replica set
+
 The secondary replica the primary replica set oplog and apply the operations to their datasets such that the secondary datasets reflect the primary dataset.
 
-34. which is replica set oplog
+34.  ###  which is replica set oplog
+
 The oplog records all operations that modify the data in the replica set.
 
-35. What is sharding 
+35.  ###  What is sharding
+
 Sharding is a method of Distributing data across mulitple machines. mongodb supports deployment with large data sets and high throughput operations via sharding.
 
-36. Define horizontal scaling 
+36.  ### Define horizontal scaling 
+
 horizontal scaling divides the dataset and Distributed data over multiple servers or shards.
 
-37. Define vertical scaling
+37. ###  Define vertical scaling
+
 vertical scaling add more cpu and storage resource to increase capacity.
 
-38. What are the component of sharded cluster
-1. Shared 2. Query routers 3. Config server
+38. ###  What are the component of sharded cluster
 
-39. What is a shard key
+Ans-> 1. Shared 2. Query routers 3. Config server
+
+39.  ### What is a shard key
+
 Shared key is used by mongodb to Distributed the document of a collection across shards. Shard key consists of a field of fields that exists in every document of the mongodb collection.
 
-40. What are the accumulator operator
+40.  ### What are the accumulator operator
+
 The operation which is used to assist in the analysis process of the input document.
 Ex :- $sum, $avg, $min, $max, $Push etc
 
-41. What features in mongodb is used to do safe backups
+41.  ### What features in mongodb is used to do safe backups
+
 To save backup of the old files "journaling" features is used in mongodb database.
 
 42. Which utility used for backup and repositories
 Mongodump provides a the mongod instance while mongorestore make BSON dump file into json it method possile for creating BSON dump files from to restore there dumps. bsondump converts mongoimport provides a method for taking data is json, csv or tsv and importing into a mongod instance.
 
-43. Difference mongodb backup methods
-1. Backup with altas 2.  backup with mongodb cloud or ops manager or backup copying underlying data files 3. backup with mongodump 
+43. ### Difference mongodb backup methods?
 
-44. What are the used of mongodb ops manager
+Ans-> 1. Backup with altas 2.  backup with mongodb cloud or ops manager or backup copying underlying data files 3. backup with mongodump 
+
+44. ### What are the used of mongodb ops manager?
+
 Mongodb ops manager an automate, monitor and backup your mongodb infrastructure.
 
-45. Can you change the shard key after a collection is sharded
+45. ### Can you change the shard key after a collection is sharded?
+
 No the shard key cannot be cahnge after a collection is sharded
 
-46. What are aggregation operations
+46. ### What are aggregation operations?
+
 Mongodb aggregation operations act on group of values from mulitple documents, perform operations on the grouped valued and return a single computed result
 
-47. What are the different ways to perform aggregation in mongodb
-1. Aggregation pipelines 2. map-reduce operation 3. single purpose aggregation methods
+47.  ### What are the different ways to perform aggregation in mongodb
 
-48. What is the use of $project in mongodb
+Ans->    1. Aggregation pipelines 2. map-reduce operation 3. single purpose aggregation methods
+
+48. ###  What is the use of $project in mongodb
+
 This stage is used to select certain fields from a collection we can also modify the document by adding or removing some field
 
-49. What is the use of $match in mongodb
+49.  ### What is the use of $match in mongodb
+
 It is used to filtering operation and it can reduce the number of document that are given as input to the next pages
 
-50. What is the use of $group in mongodb
+50. ###  What is the use of $group in mongodb
+
 It group all document based on some keys it is passed to the next stage as a document with a unique id field. The accumulator operations that may be involved include $sum, $avg, $max, $last, $push etc.
 
-51.What is the use of $unwind in mongodb
+51. ### What is the use of $unwind in mongodb
+
 In this stage we can embedding of document and would like to fetch those document as separate entites from the main document.
 
-52. What is the use of $lookup in mongodb
+52.  ### What is the use of $lookup in mongodb
+
 The $lookup stage is basically like doing a left outer join form one collection to another but in same databae. it filter document from the joined collection. a new array field is added with element that are matching document from the joined collection.
 
